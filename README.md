@@ -71,7 +71,7 @@ python -m aiometeogate watch 0-246-0-100971 0-20000-0-01492 --minutes 15
 ## Notes on the service
 
 - The broker is public: `wss://observations.meteogate.eu/mqtt/`, user and
-  password `everyone`. `/mqtt-wis/` carries only WIS 2.0 stations.
+  password `everyone`.
 - Messages are not retained. After connecting, you only get new observations;
   use the EDR client to fill in the current values.
 - Providers may repeat an observation or send older ones late. Compare

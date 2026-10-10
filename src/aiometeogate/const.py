@@ -19,9 +19,6 @@ class Endpoint(StrEnum):
     PUBLIC = "/mqtt/"
     """All stations that have a WIGOS station identifier."""
 
-    WIS2 = "/mqtt-wis/"
-    """Only stations that meet the WIS 2.0 requirements."""
-
 
 # Series 0 WIGOS station identifier: series-issuer-issue number-local identifier.
 # The pattern also guarantees the identifier is safe to use in MQTT topic filters
