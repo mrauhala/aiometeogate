@@ -1,0 +1,63 @@
+{
+  "topic": "no/met/0-20000-0-01492/surface_snow_thickness",
+  "payload": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": {
+        "lat": 59.9423,
+        "lon": 10.72
+      }
+    },
+    "properties": {
+      "title": "Oslo (Blindern)",
+      "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+      "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+      "Conventions": "CF-1.10, ACDD-1.3",
+      "naming_authority": "no.met",
+      "creator_type": "institution",
+      "creator_name": "Norwegian Meteorological Institute",
+      "creator_email": "info@met.no",
+      "creator_url": "https//www.met.no",
+      "institution": "Norwegian Meteorological Institute (MET Norway)",
+      "source": "In Situ Land-based station kvalobs",
+      "platform": "0-20000-0-01492",
+      "platform_name": "OSLO - BLINDERN",
+      "instrument": "placeholder",
+      "level": "0.0",
+      "period": "PT0S",
+      "period_int": 0,
+      "function": "point",
+      "history": "2026-10-10 07:00:00: Created from kvalobs.",
+      "datetime": "2026-10-10T07:00:00Z",
+      "content": {
+        "encoding": "utf-8",
+        "size": 0,
+        "value": "-32767",
+        "standard_name": "surface_snow_thickness",
+        "unit": "cm"
+      },
+      "data_id": "urn:uuid:9346f3c7-4e89-443e-9709-c963349584fa",
+      "timeseries_id": "6fef4f0c3d9d1882e605bb49b3fd335d",
+      "pubtime": "2026-10-10T07:01:20+00:00"
+    },
+    "links": [
+      {
+        "href": "https://data.met.no/metsis/search",
+        "rel": "data",
+        "type": "text/html",
+        "hreflang": "en",
+        "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+      },
+      {
+        "href": "https://frost.met.no",
+        "rel": "data",
+        "type": "text/html",
+        "hreflang": "en",
+        "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+      }
+    ],
+    "version": "1.0",
+    "id": "urn:uuid:9346f3c7-4e89-443e-9709-c963349584fa"
+  }
+}

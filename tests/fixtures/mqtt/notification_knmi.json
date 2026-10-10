@@ -1,0 +1,63 @@
+{
+  "topic": "nl/knmi/0-20000-0-06260/wind_speed",
+  "payload": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": {
+        "lat": 52.0989,
+        "lon": 5.1797
+      }
+    },
+    "properties": {
+      "title": "Wind Speed Maximum last 6 Hours",
+      "summary": "KNMI collects observations from the automatic weather stations situated in the Netherlands and BES islands on locations such as aerodromes and North Sea platforms. In addition, wind data from KNMI wind poles are included. The weather stations report every 10 minutes meteorological parameters such as temperature, relative humidity, wind, air pressure, visibility, precipitation, and cloud cover. The number of parameters differs per station. The file for the past 10 minutes is available a few minutes later and contains a timestamp denoting the end of the observation period in UTC. It is possible that a station's observations may not be immediately available.",
+      "keywords": "temperature, pressure, relative humidity, visibility, wind speed, wind direction, wind gust",
+      "keywords_vocabulary": "https://dataplatform.knmi.nl/dataset/10-minute-in-situ-meteorological-observations",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "Conventions": "CF-1.12",
+      "naming_authority": "nl.knmi",
+      "creator_type": "institution",
+      "creator_name": "Royal Netherlands Meteorological Institute (KNMI)",
+      "creator_email": "opendata@knmi.nl",
+      "creator_url": "https://dataplatform.knmi.nl/",
+      "institution": "Royal Netherlands Meteorological Institute (KNMI)",
+      "platform": "0-20000-0-06260",
+      "platform_name": "De Bilt",
+      "instrument": "Sax6H",
+      "level": "2.0",
+      "period": "PT6H",
+      "period_int": 21600,
+      "function": "maximum",
+      "datetime": "2026-10-10T06:10:00.000000Z",
+      "content": {
+        "encoding": "utf-8",
+        "size": 8,
+        "value": "3.65",
+        "standard_name": "wind_speed",
+        "unit": "m/s"
+      },
+      "data_id": "urn:uuid:e6a93a0b-ca2c-4bd5-ac48-f47d6ade7381",
+      "timeseries_id": "4032ead6f87da01399c6319142f9de51",
+      "pubtime": "2026-10-10T06:24:52+00:00"
+    },
+    "links": [
+      {
+        "href": "https://dataplatform.knmi.nl/",
+        "rel": "describedby",
+        "type": "text/html",
+        "hreflang": "en",
+        "title": "KNMI Data Platform"
+      },
+      {
+        "href": "https://developer.dataplatform.knmi.nl/",
+        "rel": "describedby",
+        "type": "text/html",
+        "hreflang": "en",
+        "title": "KNMI Developer Portal"
+      }
+    ],
+    "version": "1.0",
+    "id": "urn:uuid:e6a93a0b-ca2c-4bd5-ac48-f47d6ade7381"
+  }
+}

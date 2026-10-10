@@ -1,0 +1,60 @@
+{
+  "topic": "eu/eumetnet/0-348-1-13711/air_temperature",
+  "payload": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": {
+        "lat": 47.71472,
+        "lon": 16.66583
+      }
+    },
+    "properties": {
+      "summary": "Observation data from GTS network.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "Conventions": "CF-1.8",
+      "naming_authority": "eu.eumetnet",
+      "platform": "0-348-1-13711",
+      "platform_name": "Fertőrákos",
+      "level": "2.0",
+      "period": "PT0S",
+      "period_int": 0,
+      "camsl": 11680,
+      "function": "point",
+      "datetime": "2026-10-10T06:10:00+00:00",
+      "hamsl": 116.8,
+      "content": {
+        "encoding": "utf-8",
+        "size": 6,
+        "value": "10.30",
+        "standard_name": "air_temperature",
+        "unit": "Cel"
+      },
+      "data_id": "urn:uuid:702e68db-cc61-4f02-b837-23633f71bbca",
+      "timeseries_id": "609b1ddeef418d9d3eb46c0374541fbf",
+      "pubtime": "2026-10-10T06:30:30+00:00"
+    },
+    "links": [
+      {
+        "href": "https://www.eumetnet.eu/observations/observations-data-sharing-2/",
+        "rel": "related",
+        "type": "text/html",
+        "title": "Documentation related to EUMETNET data sharing"
+      },
+      {
+        "href": "https://www.eumetnet.eu/about-us-2/members-partners/",
+        "rel": "related",
+        "type": "text/html",
+        "title": "List of EUMETNET Members"
+      },
+      {
+        "href": "https://creativecommons.org/licenses/by/4.0/",
+        "rel": "license",
+        "type": "text/html",
+        "title": "Creative Commons BY 4.0 licence"
+      }
+    ],
+    "version": "v4.0",
+    "id": "urn:uuid:702e68db-cc61-4f02-b837-23633f71bbca"
+  }
+}

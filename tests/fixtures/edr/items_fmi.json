@@ -1,0 +1,1405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=snd_pt1m_instant",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "surface_snow_thickness",
+        "unit": "cm",
+        "period": "PT1M",
+        "parameter_name": "surface_snow_thickness:0.0:point:PT1M",
+        "timeseries_id": "128f8309b45892e7769447111184b0b2",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "level": 0.0,
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=surface_snow_thickness:0.0:point:PT1M"
+      },
+      "id": "128f8309b45892e7769447111184b0b2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=pa_pt1m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "air_pressure",
+        "unit": "hPa",
+        "level": 1.5,
+        "period": "PT1M",
+        "parameter_name": "air_pressure:1.5:mean:PT1M",
+        "timeseries_id": "1989042bc9eb3cb22afe9d43fcc37fd1",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=air_pressure:1.5:mean:PT1M"
+      },
+      "id": "1989042bc9eb3cb22afe9d43fcc37fd1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=vis_pt1m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "visibility_in_air",
+        "unit": "m",
+        "level": 2.0,
+        "period": "PT1M",
+        "parameter_name": "visibility_in_air:2.0:mean:PT1M",
+        "timeseries_id": "252364b8b438b0094d22a032f2d10712",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=visibility_in_air:2.0:mean:PT1M"
+      },
+      "id": "252364b8b438b0094d22a032f2d10712"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=wd_pt2m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_from_direction",
+        "unit": "deg",
+        "level": 10.0,
+        "period": "PT2M",
+        "parameter_name": "wind_from_direction:10.0:mean:PT2M",
+        "timeseries_id": "2daa1dbfd55a2d0535c01d4db2b1aaf3",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_from_direction:10.0:mean:PT2M"
+      },
+      "id": "2daa1dbfd55a2d0535c01d4db2b1aaf3"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=rh_pt1h_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "relative_humidity",
+        "unit": "%",
+        "level": 2.0,
+        "period": "PT1H",
+        "parameter_name": "relative_humidity:2.0:mean:PT1H",
+        "timeseries_id": "3c21bb9cb56617d7ca6d762796da29f9",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=relative_humidity:2.0:mean:PT1H"
+      },
+      "id": "3c21bb9cb56617d7ca6d762796da29f9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=wg_pt10m_max",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_speed_of_gust",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT10M",
+        "parameter_name": "wind_speed_of_gust:10.0:maximum:PT10M",
+        "timeseries_id": "4ca7d1b9f5ff368d9e869999229bca7f",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_speed_of_gust:10.0:maximum:PT10M"
+      },
+      "id": "4ca7d1b9f5ff368d9e869999229bca7f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=ws_pt1h_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_speed",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT1H",
+        "parameter_name": "wind_speed:10.0:mean:PT1H",
+        "timeseries_id": "5cb7e73d0738a824a3584db7289b294a",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_speed:10.0:mean:PT1H"
+      },
+      "id": "5cb7e73d0738a824a3584db7289b294a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=ta_pt1h_max",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT1H",
+        "parameter_name": "air_temperature:2.0:maximum:PT1H",
+        "timeseries_id": "6f1d54c65d7177dc3d20557687a4f5ff",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=air_temperature:2.0:maximum:PT1H"
+      },
+      "id": "6f1d54c65d7177dc3d20557687a4f5ff"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=ta_pt1m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT1M",
+        "parameter_name": "air_temperature:2.0:mean:PT1M",
+        "timeseries_id": "7047721fe0c461db3b84c7602f78f6de",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=air_temperature:2.0:mean:PT1M"
+      },
+      "id": "7047721fe0c461db3b84c7602f78f6de"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=pa_pt1h_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "air_pressure",
+        "unit": "hPa",
+        "level": 1.5,
+        "period": "PT1H",
+        "parameter_name": "air_pressure:1.5:mean:PT1H",
+        "timeseries_id": "73e020b0b8e5bcbbc65bd5be9760d72d",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=air_pressure:1.5:mean:PT1H"
+      },
+      "id": "73e020b0b8e5bcbbc65bd5be9760d72d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=ta_pt1h_min",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT1H",
+        "parameter_name": "air_temperature:2.0:minimum:PT1H",
+        "timeseries_id": "7955d089bf9a94868e4d4aef137dd895",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "minimum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=air_temperature:2.0:minimum:PT1H"
+      },
+      "id": "7955d089bf9a94868e4d4aef137dd895"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T06:00:00Z&parameter-name=ws_pt3h_max",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_speed",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT3H",
+        "parameter_name": "wind_speed:10.0:maximum:PT3H",
+        "timeseries_id": "7e43fda0a38f2785dd4e20f1c4990dcd",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_speed:10.0:maximum:PT3H"
+      },
+      "id": "7e43fda0a38f2785dd4e20f1c4990dcd"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=tg_pt1m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "soil_temperature",
+        "unit": "Cel",
+        "level": 0.05,
+        "period": "PT1M",
+        "parameter_name": "soil_temperature:0.05:mean:PT1M",
+        "timeseries_id": "89a84a2dbf75f0f1926ec92cfa8addc7",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=soil_temperature:0.05:mean:PT1M"
+      },
+      "id": "89a84a2dbf75f0f1926ec92cfa8addc7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=td_pt1m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "dew_point_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT1M",
+        "parameter_name": "dew_point_temperature:2.0:mean:PT1M",
+        "timeseries_id": "91d8522ac571d75c2c9e0fbd6e40b2e2",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=dew_point_temperature:2.0:mean:PT1M"
+      },
+      "id": "91d8522ac571d75c2c9e0fbd6e40b2e2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=ws_pt1h_max",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_speed",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT1H",
+        "parameter_name": "wind_speed:10.0:maximum:PT1H",
+        "timeseries_id": "920b9523b6b861c21b65e1ccb2ac37be",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_speed:10.0:maximum:PT1H"
+      },
+      "id": "920b9523b6b861c21b65e1ccb2ac37be"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=wd_pt1h_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_from_direction",
+        "unit": "deg",
+        "level": 10.0,
+        "period": "PT1H",
+        "parameter_name": "wind_from_direction:10.0:mean:PT1H",
+        "timeseries_id": "935641209fbfd0e9ce21b3bc62bcb57a",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_from_direction:10.0:mean:PT1H"
+      },
+      "id": "935641209fbfd0e9ce21b3bc62bcb57a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=wd_pt10m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_from_direction",
+        "unit": "deg",
+        "level": 10.0,
+        "period": "PT10M",
+        "parameter_name": "wind_from_direction:10.0:mean:PT10M",
+        "timeseries_id": "96a2bc07460237f1c12ee61d07a718b9",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_from_direction:10.0:mean:PT10M"
+      },
+      "id": "96a2bc07460237f1c12ee61d07a718b9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=ta_pt1h_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT1H",
+        "parameter_name": "air_temperature:2.0:mean:PT1H",
+        "timeseries_id": "a1d40c31bfdd340798e7759df2a0fd11",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=air_temperature:2.0:mean:PT1H"
+      },
+      "id": "a1d40c31bfdd340798e7759df2a0fd11"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=pri_pt1h_max",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "rainfall_rate",
+        "unit": "mm/h",
+        "level": 1.5,
+        "period": "PT1H",
+        "parameter_name": "rainfall_rate:1.5:maximum:PT1H",
+        "timeseries_id": "a9b8c134e441d9293f4e0b61e10178b7",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=rainfall_rate:1.5:maximum:PT1H"
+      },
+      "id": "a9b8c134e441d9293f4e0b61e10178b7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=ws_pt1h_min",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_speed",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT1H",
+        "parameter_name": "wind_speed:10.0:minimum:PT1H",
+        "timeseries_id": "aa1360213293cd389f1d5c1526a1283c",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "minimum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_speed:10.0:minimum:PT1H"
+      },
+      "id": "aa1360213293cd389f1d5c1526a1283c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=pri_pt10m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "rainfall_rate",
+        "unit": "mm/h",
+        "level": 1.5,
+        "period": "PT10M",
+        "parameter_name": "rainfall_rate:1.5:mean:PT10M",
+        "timeseries_id": "af047e54baa2c868be81edafa561b750",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=rainfall_rate:1.5:mean:PT10M"
+      },
+      "id": "af047e54baa2c868be81edafa561b750"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=cla_pt1m_acc",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "cloud_area_fraction",
+        "unit": "okta",
+        "level": 1.5,
+        "period": "PT1M",
+        "parameter_name": "cloud_area_fraction:1.5:sum:PT1M",
+        "timeseries_id": "af9d975a34def4fca6eedf2d00939cb7",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "sum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=cloud_area_fraction:1.5:sum:PT1M"
+      },
+      "id": "af9d975a34def4fca6eedf2d00939cb7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=ws_pt10m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_speed",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT10M",
+        "parameter_name": "wind_speed:10.0:mean:PT10M",
+        "timeseries_id": "b05e5656170b9d9612e06e8a53e3f3c5",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_speed:10.0:mean:PT10M"
+      },
+      "id": "b05e5656170b9d9612e06e8a53e3f3c5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=wg_pt1h_max",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_speed_of_gust",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT1H",
+        "parameter_name": "wind_speed_of_gust:10.0:maximum:PT1H",
+        "timeseries_id": "b7d376938e790aad9c75fb111d767d7d",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_speed_of_gust:10.0:maximum:PT1H"
+      },
+      "id": "b7d376938e790aad9c75fb111d767d7d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:00:00Z&parameter-name=pra_pt1h_acc",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "precipitation_amount",
+        "unit": "kg/m2",
+        "level": 1.5,
+        "period": "PT1H",
+        "parameter_name": "precipitation_amount:1.5:sum:PT1H",
+        "timeseries_id": "c837b845b321a245a067ae21c9e48594",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "sum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=precipitation_amount:1.5:sum:PT1H"
+      },
+      "id": "c837b845b321a245a067ae21c9e48594"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=ws_pt2m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_speed",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT2M",
+        "parameter_name": "wind_speed:10.0:mean:PT2M",
+        "timeseries_id": "cbc48985ccd4b37ffcf27352a992ec34",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_speed:10.0:mean:PT2M"
+      },
+      "id": "cbc48985ccd4b37ffcf27352a992ec34"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=rh_pt1m_avg",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "relative_humidity",
+        "unit": "%",
+        "level": 2.0,
+        "period": "PT1M",
+        "parameter_name": "relative_humidity:2.0:mean:PT1M",
+        "timeseries_id": "cde4ed33eb0093b4e41b7ebde71c2537",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=relative_humidity:2.0:mean:PT1M"
+      },
+      "id": "cde4ed33eb0093b4e41b7ebde71c2537"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9446,
+          60.1752
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://en.ilmatieteenlaitos.fi/open-data",
+            "rel": "describedby",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data"
+          },
+          {
+            "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T08:20:00Z&parameter-name=wg_pt2m_max",
+            "rel": "data",
+            "type": "text/json",
+            "hreflang": "en",
+            "title": "Finnish Meteorological Institute Open Data EDR API"
+          }
+        ],
+        "title": "Helsinki Kaisaniemi",
+        "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+        "keywords": "Meteorological observations from ground stations",
+        "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+        "naming_authority": "fi.fmi",
+        "creator_type": "institution",
+        "creator_name": "Finnish Meteorological Institute",
+        "creator_email": "avoin-data@fmi.fi",
+        "creator_url": "https://en.ilmatieteenlaitos.fi/",
+        "institution": "Finnish Meteorological Institute (FMI)",
+        "platform": "0-246-0-100971",
+        "platform_name": "Helsinki Kaisaniemi",
+        "standard_name": "wind_speed_of_gust",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT2M",
+        "parameter_name": "wind_speed_of_gust:10.0:maximum:PT2M",
+        "timeseries_id": "fbd008c84ac10500322ad0b79192d600",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-246-0-100971",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-246-0-100971?=parameter-name=wind_speed_of_gust:10.0:maximum:PT2M"
+      },
+      "id": "fbd008c84ac10500322ad0b79192d600"
+    }
+  ]
+}

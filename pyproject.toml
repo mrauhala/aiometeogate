@@ -1,0 +1,95 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aiometeogate"
+version = "0.1.0"
+description = "Asynchronous client for EUMETNET MeteoGate (E-SOH) weather observations over MQTT and EDR"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Mikko Rauhala", email = "mikko@rauhala.net" }]
+requires-python = ">=3.13"
+keywords = ["meteogate", "e-soh", "eumetnet", "weather", "observations", "mqtt", "home-assistant"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Home Automation",
+    "Typing :: Typed",
+]
+dependencies = [
+    "aiohttp>=3.11",
+    "aiomqtt>=2.5.0,<3",
+]
+
+[project.urls]
+Homepage = "https://github.com/mrauhala/aiometeogate"
+Issues = "https://github.com/mrauhala/aiometeogate/issues"
+
+[project.scripts]
+aiometeogate = "aiometeogate.__main__:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15",
+    "pytest>=8.3",
+    "pytest-asyncio>=0.26",
+    "pytest-cov>=6.0",
+    "ruff>=0.11",
+    "syrupy>=4.9",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "README.md", "LICENSE"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aiometeogate"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+addopts = "-m 'not live'"
+markers = ["live: tests that talk to the real MeteoGate service"]
+
+[tool.coverage.run]
+source = ["aiometeogate"]
+branch = true
+# Developer tool; exercised by the live smoke tests.
+omit = ["*/aiometeogate/__main__.py"]
+
+[tool.coverage.report]
+exclude_also = ["if TYPE_CHECKING:", "raise NotImplementedError"]
+
+[tool.mypy]
+strict = true
+python_version = "3.13"
+mypy_path = "src"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "COM812",  # conflicts with the formatter
+    "CPY001",  # no per-file copyright headers; see LICENSE
+    "D203",    # incompatible with D211
+    "D213",    # incompatible with D212
+    "EM101",
+    "EM102",
+    "TRY003",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "PLR2004", "SLF001", "D", "ANN401", "FBT", "ASYNC110"]
+"scripts/**" = ["T201", "INP001", "S"]
+"src/aiometeogate/__main__.py" = ["T201"]

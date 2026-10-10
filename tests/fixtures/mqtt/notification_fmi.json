@@ -1,0 +1,61 @@
+{
+  "topic": "fi/fmi/0-246-0-100971/wind_speed",
+  "payload": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": {
+        "lat": 60.1752,
+        "lon": 24.9446
+      }
+    },
+    "properties": {
+      "title": "Helsinki Kaisaniemi",
+      "summary": "Ground observations from the Finnish Meteorological Institute observation station: Helsinki Kaisaniemi",
+      "keywords": "Meteorological observations from ground stations",
+      "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+      "Conventions": "CF-1.12, ACDD-1.3",
+      "naming_authority": "fi.fmi",
+      "creator_type": "institution",
+      "creator_name": "Finnish Meteorological Institute",
+      "creator_email": "avoin-data@fmi.fi",
+      "creator_url": "https://en.ilmatieteenlaitos.fi/",
+      "institution": "Finnish Meteorological Institute (FMI)",
+      "platform": "0-246-0-100971",
+      "platform_name": "Helsinki Kaisaniemi",
+      "level": "10.0",
+      "period": "PT10M",
+      "period_int": 600,
+      "function": "mean",
+      "datetime": "2026-10-10T06:20:00.000000Z",
+      "content": {
+        "encoding": "utf-8",
+        "size": 3,
+        "value": "5.5",
+        "standard_name": "wind_speed",
+        "unit": "m/s"
+      },
+      "data_id": "urn:uuid:77d48fd6-3b40-4a92-b754-d978d89f831a",
+      "timeseries_id": "b05e5656170b9d9612e06e8a53e3f3c5",
+      "pubtime": "2026-10-10T06:26:55+00:00"
+    },
+    "links": [
+      {
+        "href": "https://en.ilmatieteenlaitos.fi/open-data",
+        "rel": "describedby",
+        "type": "text/html",
+        "hreflang": "en",
+        "title": "Finnish Meteorological Institute Open Data"
+      },
+      {
+        "href": "https://opendata.fmi.fi/edr/collections/opendata/locations/100971?datetime=2026-10-10T06:20:00Z&parameter-name=ws_pt10m_avg",
+        "rel": "data",
+        "type": "text/json",
+        "hreflang": "en",
+        "title": "Finnish Meteorological Institute Open Data EDR API"
+      }
+    ],
+    "version": "1.0.0",
+    "id": "urn:uuid:77d48fd6-3b40-4a92-b754-d978d89f831a"
+  }
+}

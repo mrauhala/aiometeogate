@@ -1,0 +1,2443 @@
+{
+  "type": "CoverageCollection",
+  "coverages": [
+    {
+      "type": "Coverage",
+      "domain": {
+        "type": "Domain",
+        "domainType": "PointSeries",
+        "axes": {
+          "x": {
+            "values": [
+              24.9446
+            ]
+          },
+          "y": {
+            "values": [
+              60.1752
+            ]
+          },
+          "t": {
+            "values": [
+              "2026-10-10T05:30:00Z",
+              "2026-10-10T05:40:00Z",
+              "2026-10-10T05:50:00Z",
+              "2026-10-10T06:00:00Z",
+              "2026-10-10T06:10:00Z",
+              "2026-10-10T06:20:00Z",
+              "2026-10-10T06:30:00Z",
+              "2026-10-10T06:40:00Z",
+              "2026-10-10T06:50:00Z",
+              "2026-10-10T07:00:00Z",
+              "2026-10-10T07:10:00Z",
+              "2026-10-10T07:20:00Z",
+              "2026-10-10T07:30:00Z",
+              "2026-10-10T07:40:00Z",
+              "2026-10-10T07:50:00Z",
+              "2026-10-10T08:00:00Z",
+              "2026-10-10T08:10:00Z",
+              "2026-10-10T08:20:00Z"
+            ]
+          }
+        },
+        "referencing": [
+          {
+            "coordinates": [
+              "x",
+              "y"
+            ],
+            "system": {
+              "type": "GeographicCRS",
+              "id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+            }
+          },
+          {
+            "coordinates": [
+              "t"
+            ],
+            "system": {
+              "type": "TemporalRS",
+              "calendar": "Gregorian"
+            }
+          }
+        ]
+      },
+      "parameters": {
+        "air_pressure:1.5:mean:PT1M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Air pressure at 1.5m, aggregated over PT1M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/air_pressure",
+            "label": {
+              "en": "Air pressure"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "hPa"
+            },
+            "symbol": {
+              "value": "hPa",
+              "type": "https://qudt.org/vocab/unit/HectoPA"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1M"
+          },
+          "metocean:standard_name": "air_pressure",
+          "metocean:level": 1.5
+        },
+        "air_temperature:2.0:mean:PT1M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Air temperature at 2.0m, aggregated over PT1M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/air_temperature",
+            "label": {
+              "en": "Air temperature"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "Cel"
+            },
+            "symbol": {
+              "value": "°C",
+              "type": "https://qudt.org/vocab/unit/DEG_C"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1M"
+          },
+          "metocean:standard_name": "air_temperature",
+          "metocean:level": 2.0
+        },
+        "cloud_area_fraction:1.5:sum:PT1M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Cloud area fraction at 1.5m, aggregated over PT1M with method 'sum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/cloud_area_fraction",
+            "label": {
+              "en": "Cloud area fraction"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "okta"
+            },
+            "symbol": {
+              "value": "okta",
+              "type": "https://qudt.org/vocab/unit/OKTA"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "sum",
+            "duration": "PT1M"
+          },
+          "metocean:standard_name": "cloud_area_fraction",
+          "metocean:level": 1.5
+        },
+        "dew_point_temperature:2.0:mean:PT1M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Dew point temperature at 2.0m, aggregated over PT1M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/dew_point_temperature",
+            "label": {
+              "en": "Dew point temperature"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "Cel"
+            },
+            "symbol": {
+              "value": "°C",
+              "type": "https://qudt.org/vocab/unit/DEG_C"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1M"
+          },
+          "metocean:standard_name": "dew_point_temperature",
+          "metocean:level": 2.0
+        },
+        "rainfall_rate:1.5:mean:PT10M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Rainfall rate at 1.5m, aggregated over PT10M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/rainfall_rate",
+            "label": {
+              "en": "Rainfall rate"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "mm/h"
+            },
+            "symbol": {
+              "value": "mm/h",
+              "type": "https://qudt.org/vocab/unit/MilliM-PER-HR"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT10M"
+          },
+          "metocean:standard_name": "rainfall_rate",
+          "metocean:level": 1.5
+        },
+        "relative_humidity:2.0:mean:PT1M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Relative humidity at 2.0m, aggregated over PT1M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/relative_humidity",
+            "label": {
+              "en": "Relative humidity"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "%"
+            },
+            "symbol": {
+              "value": "%",
+              "type": "https://qudt.org/vocab/unit/PERCENT"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1M"
+          },
+          "metocean:standard_name": "relative_humidity",
+          "metocean:level": 2.0
+        },
+        "soil_temperature:0.05:mean:PT1M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Soil temperature at 0.05m, aggregated over PT1M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/soil_temperature",
+            "label": {
+              "en": "Soil temperature"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "Cel"
+            },
+            "symbol": {
+              "value": "°C",
+              "type": "https://qudt.org/vocab/unit/DEG_C"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1M"
+          },
+          "metocean:standard_name": "soil_temperature",
+          "metocean:level": 0.05
+        },
+        "surface_snow_thickness:0.0:point:PT1M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Surface snow thickness at 0.0m, aggregated over PT1M with method 'point'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/surface_snow_thickness",
+            "label": {
+              "en": "Surface snow thickness"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "cm"
+            },
+            "symbol": {
+              "value": "cm",
+              "type": "https://qudt.org/vocab/unit/CentiM"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "point",
+            "duration": "PT1M"
+          },
+          "metocean:standard_name": "surface_snow_thickness",
+          "metocean:level": 0.0
+        },
+        "visibility_in_air:2.0:mean:PT1M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Visibility in air at 2.0m, aggregated over PT1M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/visibility_in_air",
+            "label": {
+              "en": "Visibility in air"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m"
+            },
+            "symbol": {
+              "value": "m",
+              "type": "https://qudt.org/vocab/unit/M"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1M"
+          },
+          "metocean:standard_name": "visibility_in_air",
+          "metocean:level": 2.0
+        },
+        "wind_from_direction:10.0:mean:PT10M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind from direction at 10.0m, aggregated over PT10M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_from_direction",
+            "label": {
+              "en": "Wind from direction"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "deg"
+            },
+            "symbol": {
+              "value": "°",
+              "type": "https://qudt.org/vocab/unit/DEG"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT10M"
+          },
+          "metocean:standard_name": "wind_from_direction",
+          "metocean:level": 10.0
+        },
+        "wind_from_direction:10.0:mean:PT2M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind from direction at 10.0m, aggregated over PT2M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_from_direction",
+            "label": {
+              "en": "Wind from direction"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "deg"
+            },
+            "symbol": {
+              "value": "°",
+              "type": "https://qudt.org/vocab/unit/DEG"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT2M"
+          },
+          "metocean:standard_name": "wind_from_direction",
+          "metocean:level": 10.0
+        },
+        "wind_speed:10.0:mean:PT10M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind speed at 10.0m, aggregated over PT10M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+            "label": {
+              "en": "Wind speed"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m/s"
+            },
+            "symbol": {
+              "value": "m/s",
+              "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT10M"
+          },
+          "metocean:standard_name": "wind_speed",
+          "metocean:level": 10.0
+        },
+        "wind_speed:10.0:mean:PT2M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind speed at 10.0m, aggregated over PT2M with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+            "label": {
+              "en": "Wind speed"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m/s"
+            },
+            "symbol": {
+              "value": "m/s",
+              "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT2M"
+          },
+          "metocean:standard_name": "wind_speed",
+          "metocean:level": 10.0
+        },
+        "wind_speed_of_gust:10.0:maximum:PT10M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind speed of gust at 10.0m, aggregated over PT10M with method 'maximum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust",
+            "label": {
+              "en": "Wind speed of gust"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m/s"
+            },
+            "symbol": {
+              "value": "m/s",
+              "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "maximum",
+            "duration": "PT10M"
+          },
+          "metocean:standard_name": "wind_speed_of_gust",
+          "metocean:level": 10.0
+        },
+        "wind_speed_of_gust:10.0:maximum:PT2M": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind speed of gust at 10.0m, aggregated over PT2M with method 'maximum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust",
+            "label": {
+              "en": "Wind speed of gust"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m/s"
+            },
+            "symbol": {
+              "value": "m/s",
+              "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "maximum",
+            "duration": "PT2M"
+          },
+          "metocean:standard_name": "wind_speed_of_gust",
+          "metocean:level": 10.0
+        }
+      },
+      "ranges": {
+        "air_pressure:1.5:mean:PT1M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            994.2,
+            994.4,
+            994.4,
+            994.6,
+            994.8,
+            995.0,
+            995.2,
+            995.4,
+            995.5,
+            995.5,
+            995.8,
+            995.9,
+            996.1,
+            996.3,
+            996.4,
+            996.6,
+            996.8,
+            997.0
+          ]
+        },
+        "air_temperature:2.0:mean:PT1M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            5.1,
+            5.1,
+            5.1,
+            5.1,
+            5.1,
+            5.2,
+            5.2,
+            5.2,
+            5.3,
+            5.2,
+            5.1,
+            5.1,
+            5.1,
+            5.2,
+            5.2,
+            5.4,
+            5.5,
+            5.6
+          ]
+        },
+        "cloud_area_fraction:1.5:sum:PT1M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ]
+        },
+        "dew_point_temperature:2.0:mean:PT1M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            3.4,
+            3.7,
+            3.3,
+            3.3,
+            3.3,
+            3.2,
+            3.0,
+            3.2,
+            3.1,
+            3.1,
+            3.5,
+            3.3,
+            3.4,
+            3.6,
+            3.4,
+            3.3,
+            3.5,
+            3.4
+          ]
+        },
+        "rainfall_rate:1.5:mean:PT10M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "relative_humidity:2.0:mean:PT1M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            88.0,
+            90.0,
+            88.0,
+            88.0,
+            88.0,
+            87.0,
+            86.0,
+            87.0,
+            86.0,
+            87.0,
+            89.0,
+            89.0,
+            89.0,
+            90.0,
+            88.0,
+            86.0,
+            87.0,
+            86.0
+          ]
+        },
+        "soil_temperature:0.05:mean:PT1M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            5.2,
+            5.3,
+            5.3,
+            5.3,
+            5.4,
+            5.4,
+            5.3,
+            5.5,
+            5.6,
+            5.4,
+            5.3,
+            5.2,
+            5.5,
+            5.6,
+            5.6,
+            6.3,
+            6.8,
+            6.7
+          ]
+        },
+        "surface_snow_thickness:0.0:point:PT1M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        "visibility_in_air:2.0:mean:PT1M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            50000.0,
+            50000.0,
+            50000.0,
+            50000.0,
+            50000.0,
+            50000.0,
+            50000.0,
+            50000.0,
+            50000.0,
+            45340.0,
+            22790.0,
+            36560.0,
+            37340.0,
+            34710.0,
+            50000.0,
+            50000.0,
+            50000.0,
+            44010.0
+          ]
+        },
+        "wind_from_direction:10.0:mean:PT10M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            308.0,
+            305.0,
+            305.0,
+            315.0,
+            313.0,
+            306.0,
+            311.0,
+            301.0,
+            308.0,
+            314.0,
+            316.0,
+            313.0,
+            302.0,
+            301.0,
+            301.0,
+            298.0,
+            305.0,
+            308.0
+          ]
+        },
+        "wind_from_direction:10.0:mean:PT2M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            318.0,
+            304.0,
+            313.0,
+            306.0,
+            319.0,
+            305.0,
+            310.0,
+            309.0,
+            307.0,
+            308.0,
+            325.0,
+            300.0,
+            294.0,
+            308.0,
+            296.0,
+            309.0,
+            309.0,
+            295.0
+          ]
+        },
+        "wind_speed:10.0:mean:PT10M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            4.2,
+            4.1,
+            4.5,
+            4.3,
+            4.9,
+            5.5,
+            4.2,
+            3.9,
+            3.3,
+            3.8,
+            4.6,
+            4.9,
+            4.4,
+            4.0,
+            3.8,
+            4.3,
+            4.0,
+            5.7
+          ]
+        },
+        "wind_speed:10.0:mean:PT2M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            5.0,
+            4.8,
+            3.4,
+            3.3,
+            5.2,
+            5.5,
+            4.0,
+            4.6,
+            2.9,
+            4.8,
+            5.1,
+            4.0,
+            5.3,
+            3.6,
+            3.9,
+            4.3,
+            3.8,
+            5.3
+          ]
+        },
+        "wind_speed_of_gust:10.0:maximum:PT10M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            7.2,
+            6.6,
+            7.7,
+            7.5,
+            8.2,
+            7.9,
+            7.3,
+            7.5,
+            6.5,
+            6.7,
+            8.2,
+            7.6,
+            7.3,
+            6.5,
+            6.4,
+            6.5,
+            6.6,
+            8.0
+          ]
+        },
+        "wind_speed_of_gust:10.0:maximum:PT2M": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            18,
+            1,
+            1
+          ],
+          "values": [
+            6.3,
+            6.6,
+            4.8,
+            5.1,
+            6.8,
+            7.2,
+            5.5,
+            7.5,
+            4.5,
+            6.7,
+            6.3,
+            5.7,
+            7.3,
+            5.1,
+            5.2,
+            6.2,
+            6.3,
+            6.9
+          ]
+        }
+      },
+      "metocean:wigosId": "0-246-0-100971"
+    },
+    {
+      "type": "Coverage",
+      "domain": {
+        "type": "Domain",
+        "domainType": "PointSeries",
+        "axes": {
+          "x": {
+            "values": [
+              24.9446
+            ]
+          },
+          "y": {
+            "values": [
+              60.1752
+            ]
+          },
+          "t": {
+            "values": [
+              "2026-10-10T06:00:00Z"
+            ]
+          }
+        },
+        "referencing": [
+          {
+            "coordinates": [
+              "x",
+              "y"
+            ],
+            "system": {
+              "type": "GeographicCRS",
+              "id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+            }
+          },
+          {
+            "coordinates": [
+              "t"
+            ],
+            "system": {
+              "type": "TemporalRS",
+              "calendar": "Gregorian"
+            }
+          }
+        ]
+      },
+      "parameters": {
+        "wind_speed:10.0:maximum:PT3H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind speed at 10.0m, aggregated over PT3H with method 'maximum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+            "label": {
+              "en": "Wind speed"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m/s"
+            },
+            "symbol": {
+              "value": "m/s",
+              "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "maximum",
+            "duration": "PT3H"
+          },
+          "metocean:standard_name": "wind_speed",
+          "metocean:level": 10.0
+        }
+      },
+      "ranges": {
+        "wind_speed:10.0:maximum:PT3H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            1,
+            1,
+            1
+          ],
+          "values": [
+            6.7
+          ]
+        }
+      },
+      "metocean:wigosId": "0-246-0-100971"
+    },
+    {
+      "type": "Coverage",
+      "domain": {
+        "type": "Domain",
+        "domainType": "PointSeries",
+        "axes": {
+          "x": {
+            "values": [
+              24.9446
+            ]
+          },
+          "y": {
+            "values": [
+              60.1752
+            ]
+          },
+          "t": {
+            "values": [
+              "2026-10-10T06:00:00Z",
+              "2026-10-10T07:00:00Z",
+              "2026-10-10T08:00:00Z"
+            ]
+          }
+        },
+        "referencing": [
+          {
+            "coordinates": [
+              "x",
+              "y"
+            ],
+            "system": {
+              "type": "GeographicCRS",
+              "id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+            }
+          },
+          {
+            "coordinates": [
+              "t"
+            ],
+            "system": {
+              "type": "TemporalRS",
+              "calendar": "Gregorian"
+            }
+          }
+        ]
+      },
+      "parameters": {
+        "air_pressure:1.5:mean:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Air pressure at 1.5m, aggregated over PT1H with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/air_pressure",
+            "label": {
+              "en": "Air pressure"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "hPa"
+            },
+            "symbol": {
+              "value": "hPa",
+              "type": "https://qudt.org/vocab/unit/HectoPA"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "air_pressure",
+          "metocean:level": 1.5
+        },
+        "air_temperature:2.0:maximum:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Air temperature at 2.0m, aggregated over PT1H with method 'maximum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/air_temperature",
+            "label": {
+              "en": "Air temperature"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "Cel"
+            },
+            "symbol": {
+              "value": "°C",
+              "type": "https://qudt.org/vocab/unit/DEG_C"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "maximum",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "air_temperature",
+          "metocean:level": 2.0
+        },
+        "air_temperature:2.0:mean:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Air temperature at 2.0m, aggregated over PT1H with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/air_temperature",
+            "label": {
+              "en": "Air temperature"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "Cel"
+            },
+            "symbol": {
+              "value": "°C",
+              "type": "https://qudt.org/vocab/unit/DEG_C"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "air_temperature",
+          "metocean:level": 2.0
+        },
+        "air_temperature:2.0:minimum:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Air temperature at 2.0m, aggregated over PT1H with method 'minimum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/air_temperature",
+            "label": {
+              "en": "Air temperature"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "Cel"
+            },
+            "symbol": {
+              "value": "°C",
+              "type": "https://qudt.org/vocab/unit/DEG_C"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "minimum",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "air_temperature",
+          "metocean:level": 2.0
+        },
+        "precipitation_amount:1.5:sum:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Precipitation amount at 1.5m, aggregated over PT1H with method 'sum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/precipitation_amount",
+            "label": {
+              "en": "Precipitation amount"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "kg/m2"
+            },
+            "symbol": {
+              "value": "kg/m²",
+              "type": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "sum",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "precipitation_amount",
+          "metocean:level": 1.5
+        },
+        "rainfall_rate:1.5:maximum:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Rainfall rate at 1.5m, aggregated over PT1H with method 'maximum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/rainfall_rate",
+            "label": {
+              "en": "Rainfall rate"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "mm/h"
+            },
+            "symbol": {
+              "value": "mm/h",
+              "type": "https://qudt.org/vocab/unit/MilliM-PER-HR"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "maximum",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "rainfall_rate",
+          "metocean:level": 1.5
+        },
+        "relative_humidity:2.0:mean:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Relative humidity at 2.0m, aggregated over PT1H with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/relative_humidity",
+            "label": {
+              "en": "Relative humidity"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "%"
+            },
+            "symbol": {
+              "value": "%",
+              "type": "https://qudt.org/vocab/unit/PERCENT"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "relative_humidity",
+          "metocean:level": 2.0
+        },
+        "wind_from_direction:10.0:mean:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind from direction at 10.0m, aggregated over PT1H with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_from_direction",
+            "label": {
+              "en": "Wind from direction"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "deg"
+            },
+            "symbol": {
+              "value": "°",
+              "type": "https://qudt.org/vocab/unit/DEG"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "wind_from_direction",
+          "metocean:level": 10.0
+        },
+        "wind_speed:10.0:maximum:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind speed at 10.0m, aggregated over PT1H with method 'maximum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+            "label": {
+              "en": "Wind speed"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m/s"
+            },
+            "symbol": {
+              "value": "m/s",
+              "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "maximum",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "wind_speed",
+          "metocean:level": 10.0
+        },
+        "wind_speed:10.0:mean:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind speed at 10.0m, aggregated over PT1H with method 'mean'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+            "label": {
+              "en": "Wind speed"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m/s"
+            },
+            "symbol": {
+              "value": "m/s",
+              "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "mean",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "wind_speed",
+          "metocean:level": 10.0
+        },
+        "wind_speed:10.0:minimum:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind speed at 10.0m, aggregated over PT1H with method 'minimum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+            "label": {
+              "en": "Wind speed"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m/s"
+            },
+            "symbol": {
+              "value": "m/s",
+              "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "minimum",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "wind_speed",
+          "metocean:level": 10.0
+        },
+        "wind_speed_of_gust:10.0:maximum:PT1H": {
+          "type": "Parameter",
+          "description": {
+            "en": "Wind speed of gust at 10.0m, aggregated over PT1H with method 'maximum'"
+          },
+          "observedProperty": {
+            "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust",
+            "label": {
+              "en": "Wind speed of gust"
+            }
+          },
+          "unit": {
+            "label": {
+              "en": "m/s"
+            },
+            "symbol": {
+              "value": "m/s",
+              "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+            }
+          },
+          "metocean:measurementType": {
+            "method": "maximum",
+            "duration": "PT1H"
+          },
+          "metocean:standard_name": "wind_speed_of_gust",
+          "metocean:level": 10.0
+        }
+      },
+      "ranges": {
+        "air_pressure:1.5:mean:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            994.2,
+            995.2,
+            996.1
+          ]
+        },
+        "air_temperature:2.0:maximum:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            5.3,
+            5.4,
+            5.4
+          ]
+        },
+        "air_temperature:2.0:mean:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            5.2,
+            5.2,
+            5.2
+          ]
+        },
+        "air_temperature:2.0:minimum:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            5.1,
+            5.1,
+            5.1
+          ]
+        },
+        "precipitation_amount:1.5:sum:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "rainfall_rate:1.5:maximum:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "relative_humidity:2.0:mean:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            88.0,
+            87.0,
+            89.0
+          ]
+        },
+        "wind_from_direction:10.0:mean:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            306.0,
+            309.0,
+            306.0
+          ]
+        },
+        "wind_speed:10.0:maximum:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            4.9,
+            5.6,
+            5.3
+          ]
+        },
+        "wind_speed:10.0:mean:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            4.3,
+            4.3,
+            4.3
+          ]
+        },
+        "wind_speed:10.0:minimum:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            3.5,
+            3.1,
+            3.7
+          ]
+        },
+        "wind_speed_of_gust:10.0:maximum:PT1H": {
+          "type": "NdArray",
+          "dataType": "float",
+          "axisNames": [
+            "t",
+            "x",
+            "y"
+          ],
+          "shape": [
+            3,
+            1,
+            1
+          ],
+          "values": [
+            8.2,
+            8.2,
+            8.2
+          ]
+        }
+      },
+      "metocean:wigosId": "0-246-0-100971"
+    }
+  ],
+  "parameters": {
+    "air_pressure:1.5:mean:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Air pressure at 1.5m, aggregated over PT1H with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/air_pressure",
+        "label": {
+          "en": "Air pressure"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "hPa"
+        },
+        "symbol": {
+          "value": "hPa",
+          "type": "https://qudt.org/vocab/unit/HectoPA"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "air_pressure",
+      "metocean:level": 1.5
+    },
+    "air_pressure:1.5:mean:PT1M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Air pressure at 1.5m, aggregated over PT1M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/air_pressure",
+        "label": {
+          "en": "Air pressure"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "hPa"
+        },
+        "symbol": {
+          "value": "hPa",
+          "type": "https://qudt.org/vocab/unit/HectoPA"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1M"
+      },
+      "metocean:standard_name": "air_pressure",
+      "metocean:level": 1.5
+    },
+    "air_temperature:2.0:maximum:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Air temperature at 2.0m, aggregated over PT1H with method 'maximum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/air_temperature",
+        "label": {
+          "en": "Air temperature"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "Cel"
+        },
+        "symbol": {
+          "value": "°C",
+          "type": "https://qudt.org/vocab/unit/DEG_C"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "maximum",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "air_temperature",
+      "metocean:level": 2.0
+    },
+    "air_temperature:2.0:mean:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Air temperature at 2.0m, aggregated over PT1H with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/air_temperature",
+        "label": {
+          "en": "Air temperature"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "Cel"
+        },
+        "symbol": {
+          "value": "°C",
+          "type": "https://qudt.org/vocab/unit/DEG_C"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "air_temperature",
+      "metocean:level": 2.0
+    },
+    "air_temperature:2.0:mean:PT1M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Air temperature at 2.0m, aggregated over PT1M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/air_temperature",
+        "label": {
+          "en": "Air temperature"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "Cel"
+        },
+        "symbol": {
+          "value": "°C",
+          "type": "https://qudt.org/vocab/unit/DEG_C"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1M"
+      },
+      "metocean:standard_name": "air_temperature",
+      "metocean:level": 2.0
+    },
+    "air_temperature:2.0:minimum:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Air temperature at 2.0m, aggregated over PT1H with method 'minimum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/air_temperature",
+        "label": {
+          "en": "Air temperature"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "Cel"
+        },
+        "symbol": {
+          "value": "°C",
+          "type": "https://qudt.org/vocab/unit/DEG_C"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "minimum",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "air_temperature",
+      "metocean:level": 2.0
+    },
+    "cloud_area_fraction:1.5:sum:PT1M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Cloud area fraction at 1.5m, aggregated over PT1M with method 'sum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/cloud_area_fraction",
+        "label": {
+          "en": "Cloud area fraction"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "okta"
+        },
+        "symbol": {
+          "value": "okta",
+          "type": "https://qudt.org/vocab/unit/OKTA"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "sum",
+        "duration": "PT1M"
+      },
+      "metocean:standard_name": "cloud_area_fraction",
+      "metocean:level": 1.5
+    },
+    "dew_point_temperature:2.0:mean:PT1M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Dew point temperature at 2.0m, aggregated over PT1M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/dew_point_temperature",
+        "label": {
+          "en": "Dew point temperature"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "Cel"
+        },
+        "symbol": {
+          "value": "°C",
+          "type": "https://qudt.org/vocab/unit/DEG_C"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1M"
+      },
+      "metocean:standard_name": "dew_point_temperature",
+      "metocean:level": 2.0
+    },
+    "precipitation_amount:1.5:sum:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Precipitation amount at 1.5m, aggregated over PT1H with method 'sum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/precipitation_amount",
+        "label": {
+          "en": "Precipitation amount"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "kg/m2"
+        },
+        "symbol": {
+          "value": "kg/m²",
+          "type": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "sum",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "precipitation_amount",
+      "metocean:level": 1.5
+    },
+    "rainfall_rate:1.5:maximum:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Rainfall rate at 1.5m, aggregated over PT1H with method 'maximum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/rainfall_rate",
+        "label": {
+          "en": "Rainfall rate"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "mm/h"
+        },
+        "symbol": {
+          "value": "mm/h",
+          "type": "https://qudt.org/vocab/unit/MilliM-PER-HR"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "maximum",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "rainfall_rate",
+      "metocean:level": 1.5
+    },
+    "rainfall_rate:1.5:mean:PT10M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Rainfall rate at 1.5m, aggregated over PT10M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/rainfall_rate",
+        "label": {
+          "en": "Rainfall rate"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "mm/h"
+        },
+        "symbol": {
+          "value": "mm/h",
+          "type": "https://qudt.org/vocab/unit/MilliM-PER-HR"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT10M"
+      },
+      "metocean:standard_name": "rainfall_rate",
+      "metocean:level": 1.5
+    },
+    "relative_humidity:2.0:mean:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Relative humidity at 2.0m, aggregated over PT1H with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/relative_humidity",
+        "label": {
+          "en": "Relative humidity"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "%"
+        },
+        "symbol": {
+          "value": "%",
+          "type": "https://qudt.org/vocab/unit/PERCENT"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "relative_humidity",
+      "metocean:level": 2.0
+    },
+    "relative_humidity:2.0:mean:PT1M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Relative humidity at 2.0m, aggregated over PT1M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/relative_humidity",
+        "label": {
+          "en": "Relative humidity"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "%"
+        },
+        "symbol": {
+          "value": "%",
+          "type": "https://qudt.org/vocab/unit/PERCENT"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1M"
+      },
+      "metocean:standard_name": "relative_humidity",
+      "metocean:level": 2.0
+    },
+    "soil_temperature:0.05:mean:PT1M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Soil temperature at 0.05m, aggregated over PT1M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/soil_temperature",
+        "label": {
+          "en": "Soil temperature"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "Cel"
+        },
+        "symbol": {
+          "value": "°C",
+          "type": "https://qudt.org/vocab/unit/DEG_C"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1M"
+      },
+      "metocean:standard_name": "soil_temperature",
+      "metocean:level": 0.05
+    },
+    "surface_snow_thickness:0.0:point:PT1M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Surface snow thickness at 0.0m, aggregated over PT1M with method 'point'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/surface_snow_thickness",
+        "label": {
+          "en": "Surface snow thickness"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "cm"
+        },
+        "symbol": {
+          "value": "cm",
+          "type": "https://qudt.org/vocab/unit/CentiM"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "point",
+        "duration": "PT1M"
+      },
+      "metocean:standard_name": "surface_snow_thickness",
+      "metocean:level": 0.0
+    },
+    "visibility_in_air:2.0:mean:PT1M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Visibility in air at 2.0m, aggregated over PT1M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/visibility_in_air",
+        "label": {
+          "en": "Visibility in air"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m"
+        },
+        "symbol": {
+          "value": "m",
+          "type": "https://qudt.org/vocab/unit/M"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1M"
+      },
+      "metocean:standard_name": "visibility_in_air",
+      "metocean:level": 2.0
+    },
+    "wind_from_direction:10.0:mean:PT10M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind from direction at 10.0m, aggregated over PT10M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_from_direction",
+        "label": {
+          "en": "Wind from direction"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "deg"
+        },
+        "symbol": {
+          "value": "°",
+          "type": "https://qudt.org/vocab/unit/DEG"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT10M"
+      },
+      "metocean:standard_name": "wind_from_direction",
+      "metocean:level": 10.0
+    },
+    "wind_from_direction:10.0:mean:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind from direction at 10.0m, aggregated over PT1H with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_from_direction",
+        "label": {
+          "en": "Wind from direction"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "deg"
+        },
+        "symbol": {
+          "value": "°",
+          "type": "https://qudt.org/vocab/unit/DEG"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "wind_from_direction",
+      "metocean:level": 10.0
+    },
+    "wind_from_direction:10.0:mean:PT2M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind from direction at 10.0m, aggregated over PT2M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_from_direction",
+        "label": {
+          "en": "Wind from direction"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "deg"
+        },
+        "symbol": {
+          "value": "°",
+          "type": "https://qudt.org/vocab/unit/DEG"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT2M"
+      },
+      "metocean:standard_name": "wind_from_direction",
+      "metocean:level": 10.0
+    },
+    "wind_speed:10.0:maximum:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind speed at 10.0m, aggregated over PT1H with method 'maximum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+        "label": {
+          "en": "Wind speed"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "maximum",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "wind_speed",
+      "metocean:level": 10.0
+    },
+    "wind_speed:10.0:maximum:PT3H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind speed at 10.0m, aggregated over PT3H with method 'maximum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+        "label": {
+          "en": "Wind speed"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "maximum",
+        "duration": "PT3H"
+      },
+      "metocean:standard_name": "wind_speed",
+      "metocean:level": 10.0
+    },
+    "wind_speed:10.0:mean:PT10M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind speed at 10.0m, aggregated over PT10M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+        "label": {
+          "en": "Wind speed"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT10M"
+      },
+      "metocean:standard_name": "wind_speed",
+      "metocean:level": 10.0
+    },
+    "wind_speed:10.0:mean:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind speed at 10.0m, aggregated over PT1H with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+        "label": {
+          "en": "Wind speed"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "wind_speed",
+      "metocean:level": 10.0
+    },
+    "wind_speed:10.0:mean:PT2M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind speed at 10.0m, aggregated over PT2M with method 'mean'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+        "label": {
+          "en": "Wind speed"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "mean",
+        "duration": "PT2M"
+      },
+      "metocean:standard_name": "wind_speed",
+      "metocean:level": 10.0
+    },
+    "wind_speed:10.0:minimum:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind speed at 10.0m, aggregated over PT1H with method 'minimum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed",
+        "label": {
+          "en": "Wind speed"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "minimum",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "wind_speed",
+      "metocean:level": 10.0
+    },
+    "wind_speed_of_gust:10.0:maximum:PT10M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind speed of gust at 10.0m, aggregated over PT10M with method 'maximum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust",
+        "label": {
+          "en": "Wind speed of gust"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "maximum",
+        "duration": "PT10M"
+      },
+      "metocean:standard_name": "wind_speed_of_gust",
+      "metocean:level": 10.0
+    },
+    "wind_speed_of_gust:10.0:maximum:PT1H": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind speed of gust at 10.0m, aggregated over PT1H with method 'maximum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust",
+        "label": {
+          "en": "Wind speed of gust"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "maximum",
+        "duration": "PT1H"
+      },
+      "metocean:standard_name": "wind_speed_of_gust",
+      "metocean:level": 10.0
+    },
+    "wind_speed_of_gust:10.0:maximum:PT2M": {
+      "type": "Parameter",
+      "description": {
+        "en": "Wind speed of gust at 10.0m, aggregated over PT2M with method 'maximum'"
+      },
+      "observedProperty": {
+        "id": "https://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust",
+        "label": {
+          "en": "Wind speed of gust"
+        }
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "https://qudt.org/vocab/unit/M-PER-SEC"
+        }
+      },
+      "metocean:measurementType": {
+        "method": "maximum",
+        "duration": "PT2M"
+      },
+      "metocean:standard_name": "wind_speed_of_gust",
+      "metocean:level": 10.0
+    }
+  }
+}

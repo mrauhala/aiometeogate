@@ -1,0 +1,1433 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "precipitation_amount",
+        "unit": "kg/m2",
+        "instrument": "placeholder",
+        "parameter_name": "precipitation_amount:0.0:sum:PT0S",
+        "timeseries_id": "0a5a788f0f5be6e91ba61515fd15fcb2",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "period": "PT0S",
+        "method": "sum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=precipitation_amount:0.0:sum:PT0S"
+      },
+      "id": "0a5a788f0f5be6e91ba61515fd15fcb2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "wind_speed_of_gust",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT1H",
+        "instrument": "placeholder",
+        "parameter_name": "wind_speed_of_gust:10.0:maximum:PT1H",
+        "timeseries_id": "1b854ad2115bd4dfe1eeaceae18b10c8",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=wind_speed_of_gust:10.0:maximum:PT1H"
+      },
+      "id": "1b854ad2115bd4dfe1eeaceae18b10c8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "cloud_area_fraction",
+        "unit": "okta",
+        "instrument": "placeholder",
+        "parameter_name": "cloud_area_fraction:0.0:point:PT0S",
+        "timeseries_id": "1f4835f4dfa015fa9fd8613ceca835de",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "period": "PT0S",
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=cloud_area_fraction:0.0:point:PT0S"
+      },
+      "id": "1f4835f4dfa015fa9fd8613ceca835de"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "wind_speed",
+        "unit": "m/s",
+        "level": 10.0,
+        "instrument": "placeholder",
+        "parameter_name": "wind_speed:10.0:point:PT0S",
+        "timeseries_id": "203146151edd6d552fe59226f83a971e",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "period": "PT0S",
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=wind_speed:10.0:point:PT0S"
+      },
+      "id": "203146151edd6d552fe59226f83a971e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT1H",
+        "instrument": "placeholder",
+        "parameter_name": "air_temperature:2.0:maximum:PT1H",
+        "timeseries_id": "21b327060750d68bfb523a50fe31b144",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=air_temperature:2.0:maximum:PT1H"
+      },
+      "id": "21b327060750d68bfb523a50fe31b144"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "precipitation_amount",
+        "unit": "kg/m2",
+        "period": "PT12H",
+        "instrument": "placeholder",
+        "parameter_name": "precipitation_amount:0.0:sum:PT12H",
+        "timeseries_id": "2952c6d5bde005d16d50565868a53a1a",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "method": "sum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=precipitation_amount:0.0:sum:PT12H"
+      },
+      "id": "2952c6d5bde005d16d50565868a53a1a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "surface_air_pressure",
+        "unit": "hPa",
+        "level": 2.0,
+        "instrument": "placeholder",
+        "parameter_name": "surface_air_pressure:2.0:point:PT0S",
+        "timeseries_id": "34e2b66b4ee31cf43423c2edc4489320",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "period": "PT0S",
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=surface_air_pressure:2.0:point:PT0S"
+      },
+      "id": "34e2b66b4ee31cf43423c2edc4489320"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "wind_from_direction",
+        "unit": "deg",
+        "level": 10.0,
+        "period": "PT1H",
+        "instrument": "placeholder",
+        "parameter_name": "wind_from_direction:10.0:maximum:PT1H",
+        "timeseries_id": "422802375f1885cba559a88cfc9062fa",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=wind_from_direction:10.0:maximum:PT1H"
+      },
+      "id": "422802375f1885cba559a88cfc9062fa"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "low_type_cloud_area_fraction",
+        "unit": "okta",
+        "instrument": "placeholder",
+        "parameter_name": "low_type_cloud_area_fraction:0.0:point:PT0S",
+        "timeseries_id": "56f15d51cf24ff552d83f3ddf36decdb",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "period": "PT0S",
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=low_type_cloud_area_fraction:0.0:point:PT0S"
+      },
+      "id": "56f15d51cf24ff552d83f3ddf36decdb"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "duration_of_sunshine",
+        "unit": "s",
+        "period": "PT1M",
+        "instrument": "placeholder",
+        "parameter_name": "duration_of_sunshine:0.0:sum:PT1M",
+        "timeseries_id": "639568fda988ed628eaaaa4d3f4b827b",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "method": "sum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=duration_of_sunshine:0.0:sum:PT1M"
+      },
+      "id": "639568fda988ed628eaaaa4d3f4b827b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "surface_snow_thickness",
+        "unit": "cm",
+        "instrument": "placeholder",
+        "parameter_name": "surface_snow_thickness:0.0:point:PT0S",
+        "timeseries_id": "6fef4f0c3d9d1882e605bb49b3fd335d",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "period": "PT0S",
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=surface_snow_thickness:0.0:point:PT0S"
+      },
+      "id": "6fef4f0c3d9d1882e605bb49b3fd335d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT12H",
+        "instrument": "placeholder",
+        "parameter_name": "air_temperature:2.0:minimum:PT12H",
+        "timeseries_id": "7eb62fb71403fdff2b8dbf086e1f4ab6",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "minimum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=air_temperature:2.0:minimum:PT12H"
+      },
+      "id": "7eb62fb71403fdff2b8dbf086e1f4ab6"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "instrument": "placeholder",
+        "parameter_name": "air_temperature:2.0:point:PT0S",
+        "timeseries_id": "87a5ffb11f5a221f96b7911c84b11d0f",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "period": "PT0S",
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=air_temperature:2.0:point:PT0S"
+      },
+      "id": "87a5ffb11f5a221f96b7911c84b11d0f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "duration_of_sunshine",
+        "unit": "s",
+        "period": "PT1H",
+        "instrument": "placeholder",
+        "parameter_name": "duration_of_sunshine:0.0:sum:PT1H",
+        "timeseries_id": "9557d700413d0aee21c4744c811fa4aa",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "method": "sum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=duration_of_sunshine:0.0:sum:PT1H"
+      },
+      "id": "9557d700413d0aee21c4744c811fa4aa"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT1H",
+        "instrument": "placeholder",
+        "parameter_name": "air_temperature:2.0:minimum:PT1H",
+        "timeseries_id": "9af3200b597bfd97b8334e0c717debd9",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "minimum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=air_temperature:2.0:minimum:PT1H"
+      },
+      "id": "9af3200b597bfd97b8334e0c717debd9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "precipitation_amount",
+        "unit": "kg/m2",
+        "period": "PT10M",
+        "instrument": "placeholder",
+        "parameter_name": "precipitation_amount:0.0:sum:PT10M",
+        "timeseries_id": "9e35296375ae871cd922a14e6b282c23",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "method": "sum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=precipitation_amount:0.0:sum:PT10M"
+      },
+      "id": "9e35296375ae871cd922a14e6b282c23"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "surface_downwelling_shortwave_flux_in_air",
+        "unit": "W/m2",
+        "period": "PT1M",
+        "instrument": "placeholder",
+        "parameter_name": "surface_downwelling_shortwave_flux_in_air:0.0:mean:PT1M",
+        "timeseries_id": "a2a37d81411829238701caffb85ff164",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=surface_downwelling_shortwave_flux_in_air:0.0:mean:PT1M"
+      },
+      "id": "a2a37d81411829238701caffb85ff164"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "precipitation_amount",
+        "unit": "kg/m2",
+        "period": "PT24H",
+        "instrument": "placeholder",
+        "parameter_name": "precipitation_amount:0.0:sum:PT24H",
+        "timeseries_id": "cc922ce5ccd1cbe9c796684e9bc5a4f0",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "method": "sum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=precipitation_amount:0.0:sum:PT24H"
+      },
+      "id": "cc922ce5ccd1cbe9c796684e9bc5a4f0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT12H",
+        "instrument": "placeholder",
+        "parameter_name": "air_temperature:2.0:maximum:PT12H",
+        "timeseries_id": "d151500c26d461319b13e5aa4c2c359a",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=air_temperature:2.0:maximum:PT12H"
+      },
+      "id": "d151500c26d461319b13e5aa4c2c359a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "precipitation_amount",
+        "unit": "kg/m2",
+        "period": "PT1H",
+        "instrument": "placeholder",
+        "parameter_name": "precipitation_amount:0.0:sum:PT1H",
+        "timeseries_id": "d74dfaeac4dc107ff6a4fac5c653209a",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "method": "sum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=precipitation_amount:0.0:sum:PT1H"
+      },
+      "id": "d74dfaeac4dc107ff6a4fac5c653209a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "wind_speed",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT1H",
+        "instrument": "placeholder",
+        "parameter_name": "wind_speed:10.0:maximum:PT1H",
+        "timeseries_id": "d7d83a796cc144883cd50175d4ee10cc",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=wind_speed:10.0:maximum:PT1H"
+      },
+      "id": "d7d83a796cc144883cd50175d4ee10cc"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "surface_downwelling_shortwave_flux_in_air",
+        "unit": "W/m2",
+        "period": "PT1H",
+        "instrument": "placeholder",
+        "parameter_name": "surface_downwelling_shortwave_flux_in_air:0.0:mean:PT1H",
+        "timeseries_id": "da73e721cd6116843a853b6017a83ad9",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "level": 0.0,
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=surface_downwelling_shortwave_flux_in_air:0.0:mean:PT1H"
+      },
+      "id": "da73e721cd6116843a853b6017a83ad9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "relative_humidity",
+        "unit": "%",
+        "level": 2.0,
+        "period": "PT24H",
+        "instrument": "placeholder",
+        "parameter_name": "relative_humidity:2.0:mean:PT24H",
+        "timeseries_id": "eb2522886e641f280f872ef9b3e8508b",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=relative_humidity:2.0:mean:PT24H"
+      },
+      "id": "eb2522886e641f280f872ef9b3e8508b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "air_temperature",
+        "unit": "Cel",
+        "level": 2.0,
+        "period": "PT24H",
+        "instrument": "placeholder",
+        "parameter_name": "air_temperature:2.0:mean:PT24H",
+        "timeseries_id": "f0704214ea7ce3acf8dc5861d496ee4e",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "mean",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=air_temperature:2.0:mean:PT24H"
+      },
+      "id": "f0704214ea7ce3acf8dc5861d496ee4e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "tendency_of_surface_air_pressure",
+        "unit": "hPa",
+        "level": 2.0,
+        "period": "PT3H",
+        "instrument": "placeholder",
+        "parameter_name": "tendency_of_surface_air_pressure:2.0:point:PT3H",
+        "timeseries_id": "f1d139ff459a118d2191d786861dd4de",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=tendency_of_surface_air_pressure:2.0:point:PT3H"
+      },
+      "id": "f1d139ff459a118d2191d786861dd4de"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "wind_from_direction",
+        "unit": "deg",
+        "level": 10.0,
+        "instrument": "placeholder",
+        "parameter_name": "wind_from_direction:10.0:point:PT0S",
+        "timeseries_id": "fa7e797c6adb2d4a5cc416c4b52ad574",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "period": "PT0S",
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=wind_from_direction:10.0:point:PT0S"
+      },
+      "id": "fa7e797c6adb2d4a5cc416c4b52ad574"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "relative_humidity",
+        "unit": "%",
+        "level": 2.0,
+        "instrument": "placeholder",
+        "parameter_name": "relative_humidity:2.0:point:PT0S",
+        "timeseries_id": "fb48f01fc013eb903f57f39683b47459",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "period": "PT0S",
+        "method": "point",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=relative_humidity:2.0:point:PT0S"
+      },
+      "id": "fb48f01fc013eb903f57f39683b47459"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72,
+          59.9423
+        ]
+      },
+      "properties": {
+        "links": [
+          {
+            "href": "https://data.met.no/metsis/search",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "Free and Open Weather, Environment and Climate Data from MET Norway"
+          },
+          {
+            "href": "https://frost.met.no",
+            "rel": "data",
+            "type": "text/html",
+            "hreflang": "en",
+            "title": "The Frost API provides free access to MET Norway's archive of historical weather and climate data."
+          }
+        ],
+        "title": "Oslo (Blindern)",
+        "summary": "Ground observation from kvalobs, station Oslo (Blindern)",
+        "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
+        "naming_authority": "no.met",
+        "creator_type": "institution",
+        "creator_name": "Norwegian Meteorological Institute",
+        "creator_email": "info@met.no",
+        "creator_url": "https//www.met.no",
+        "institution": "Norwegian Meteorological Institute (MET Norway)",
+        "source": "In Situ Land-based station kvalobs",
+        "platform": "0-20000-0-01492",
+        "platform_name": "OSLO - BLINDERN",
+        "standard_name": "wind_speed_of_gust",
+        "unit": "m/s",
+        "level": 10.0,
+        "period": "PT10M",
+        "instrument": "placeholder",
+        "parameter_name": "wind_speed_of_gust:10.0:maximum:PT10M",
+        "timeseries_id": "fc0c7bfb01746846e87ad773a9a3b6c2",
+        "platform_vocabulary": "https://oscar.wmo.int/surface/rest/api/search/station?wigosId=0-20000-0-01492",
+        "method": "maximum",
+        "data": "https://observations.meteogate.eu/collections/observations/locations/0-20000-0-01492?=parameter-name=wind_speed_of_gust:10.0:maximum:PT10M"
+      },
+      "id": "fc0c7bfb01746846e87ad773a9a3b6c2"
+    }
+  ]
+}

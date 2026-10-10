@@ -1,0 +1,60 @@
+{
+  "topic": "eu/eumetnet/0-250-0-07002/wind_speed",
+  "payload": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": {
+        "lat": 50.7325,
+        "lon": 1.59967
+      }
+    },
+    "properties": {
+      "summary": "Observation data from GTS network.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "Conventions": "CF-1.8",
+      "naming_authority": "eu.eumetnet",
+      "platform": "0-250-0-07002",
+      "platform_name": "BOULOGNE",
+      "level": "10.0",
+      "period": "PT10M",
+      "period_int": 600,
+      "camsl": 7300,
+      "function": "point",
+      "datetime": "2026-10-10T07:00:00+00:00",
+      "hamsl": 73.0,
+      "content": {
+        "encoding": "utf-8",
+        "size": 3,
+        "value": "7.5",
+        "standard_name": "wind_speed",
+        "unit": "m/s"
+      },
+      "data_id": "urn:uuid:68dde6c8-0729-4bd1-84ac-547dda708bf4",
+      "timeseries_id": "fd77abee5219f0599b535dcd1a0ba9d7",
+      "pubtime": "2026-10-10T07:10:18+00:00"
+    },
+    "links": [
+      {
+        "href": "https://www.eumetnet.eu/observations/observations-data-sharing-2/",
+        "rel": "related",
+        "type": "text/html",
+        "title": "Documentation related to EUMETNET data sharing"
+      },
+      {
+        "href": "https://www.eumetnet.eu/about-us-2/members-partners/",
+        "rel": "related",
+        "type": "text/html",
+        "title": "List of EUMETNET Members"
+      },
+      {
+        "href": "https://creativecommons.org/licenses/by/4.0/",
+        "rel": "license",
+        "type": "text/html",
+        "title": "Creative Commons BY 4.0 licence"
+      }
+    ],
+    "version": "v4.0",
+    "id": "urn:uuid:68dde6c8-0729-4bd1-84ac-547dda708bf4"
+  }
+}
